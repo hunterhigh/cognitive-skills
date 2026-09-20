@@ -1,4 +1,4 @@
 interface:
   display_name: "工作对齐顾问"
-  short_description: "从日常同步到多方局面，帮你自然表达、守住边界并推进工作"
-  default_prompt: "使用 $work-alignment-advisor 判断这个工作情境；优先按日常协作处理，只有证据足够时再升级分析，并给我自然、可执行的建议或消息。"
+  short_description: "帮助你与领导、同事和合作方自然对齐、控制承诺并推进工作"
+  default_prompt: "使用 $work-alignment-advisor 帮我判断如何与这些工作相关方沟通和推进；优先按日常协作处理，只有证据足够时再升级分析。"
