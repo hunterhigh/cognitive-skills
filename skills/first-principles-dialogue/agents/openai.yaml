@@ -1,0 +1,4 @@
+interface:
+  display_name: "First Principles Dialogue"
+  short_description: "Decompose claims, goals, funnels, resources, and metrics."
+  default_prompt: "Use $first-principles-dialogue to examine this business or philosophical claim from first principles."

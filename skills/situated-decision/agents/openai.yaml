@@ -1,0 +1,4 @@
+interface:
+  display_name: "情境决策"
+  short_description: "以五层五维和行动准则检验真实需求、证据、跨领域影响与动态取舍"
+  default_prompt: "请用 $situated-decision 审视当前问题，结合真实工作语境检查关键依据、跨领域影响和可能改变判断的情境，并按我的请求停留在研究、诊断或进入实施。"
