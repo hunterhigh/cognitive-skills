@@ -1,3 +1,9 @@
+<div align="right">
+
+**English** | [简体中文](README.zh-CN.md)
+
+</div>
+
 # Cognitive Skills
 
 **A collection of agent skills for reasoning from fundamentals, making context-aware decisions, and turning judgment into workable human alignment.**
