@@ -1,0 +1,4 @@
+interface:
+  display_name: "情境分析"
+  short_description: "以五层深化依据、以五维扩展范围，全面分析现实问题"
+  default_prompt: "请用 $situational-analysis 通过五层五维全面分析当前问题，找出可能改变判断的关键遗漏，并收敛到当前取舍。"

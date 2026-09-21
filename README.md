@@ -6,23 +6,25 @@
 
 # Cognitive Skills
 
-**A collection of agent skills for reasoning from fundamentals, making context-aware decisions, and turning judgment into workable human alignment.**
+**A collection of agent skills for reasoning from fundamentals, testing judgments in context, shaping advantageous trajectories, and turning judgment into workable human alignment.**
 
-Cognitive Skills is built around a simple distinction: a sound premise, a sound decision, and a sound workplace action are related—but they are not the same problem. The repository keeps those responsibilities separate and composable.
+Cognitive Skills distinguishes factual structure, situational judgment, strategic trajectory, and human action. They are related but not identical problems, so each skill remains independently usable and composable.
 
 ## Skills
 
 | Skill | Responsibility | Use it when |
 | --- | --- | --- |
-| [`first-principles-dialogue`](skills/first-principles-dialogue/SKILL.md) | Decompose claims into facts, assumptions, definitions, and inference | A concept or complex proposition needs to be examined from first principles. |
-| [`situated-decision`](skills/situated-decision/SKILL.md) | Test a judgment against evidence, context, incentives, uncertainty, and change | A locally plausible solution may fail in the wider real-world system. |
-| [`work-alignment-advisor`](skills/work-alignment-advisor/SKILL.md) | Convert judgment into clear commitments, boundaries, communication, and next steps with other people | The challenge is alignment with a manager, colleague, client, or partner. |
+| [`first-principles-dialogue`](skills/first-principles-dialogue/SKILL.md) | Extract atomic facts and relations from raw material, then compose and test complex propositions | A phenomenon, body of material, or idea needs to be reconstructed from first principles. |
+| [`situational-analysis`](skills/situational-analysis/SKILL.md) | Use five layers and five dimensions to test the completeness of a problem structure and judgment | A locally plausible view may omit evidence, systems, human behavior, time, or strategic interaction. |
+| [`strategic-analysis`](skills/strategic-analysis/SKILL.md) | Analyze system change, feedback, interaction, and adaptation to shape a more advantageous trajectory | The user needs leverage, a stronger position, anticipated responses, or an adaptive strategy. |
+| [`communication-advisor`](skills/communication-advisor/SKILL.md) | Understand purposeful communication and design its timing, audience, expression, boundaries, and response | Work, business, service, negotiation, public, or general social communication needs to change understanding or action. |
 
 The skills do not form a required pipeline. Use one on its own, or combine them when a decision needs deeper examination:
 
-1. establish what the claim is built on;
-2. test whether it remains valid in context;
-3. translate the result into workable human coordination.
+1. extract atomic facts and relations, then form testable candidate propositions;
+2. use five layers and five dimensions to check whether the problem and judgment are sufficiently complete;
+3. analyze how the situation may change and how to improve the trajectory;
+4. turn the result into a purposeful communication action.
 
 ## Install
 
@@ -37,16 +39,17 @@ For manual installation, copy any complete directory under [`skills/`](skills/) 
 ## Use
 
 ```text
-Use $first-principles-dialogue to identify the atomic facts and hidden assumptions in this claim.
-Use $situated-decision to test this proposal against evidence, incentives, uncertainty, and likely change.
-Use $work-alignment-advisor to turn this judgment into a clear message and next step for the people involved.
+Use $first-principles-dialogue to extract atomic facts and relations from this material, then compose and test candidate propositions.
+Use $situational-analysis to inspect this problem's structure, omissions, and critical judgments through five layers and five dimensions.
+Use $strategic-analysis to model how the situation may change and identify actions that improve the user's position and future options.
+Use $communication-advisor to decide whom to address, when to communicate, what to change, how to express it, and how to respond.
 ```
 
 ## Design principles
 
 - **Reasoning before rhetoric.** The skills expose assumptions and evidence before optimizing how a conclusion sounds.
 - **Context changes validity.** A decision is evaluated inside its operating environment, not only as an abstract argument.
-- **Human coordination is its own layer.** Communication and responsibility boundaries are treated as part of execution, not as an afterthought.
+- **Communication action is its own layer.** Communication changes understanding, commitments, and action; it is not merely a rewrite of an existing conclusion.
 - **Uncertainty remains visible.** Unknowns, reversible actions, and evidence that could change the decision are made explicit.
 - **Independent packages.** Each skill has its own entry point and can be installed without the others.
 
@@ -55,8 +58,9 @@ Use $work-alignment-advisor to turn this judgment into a clear message and next 
 ```text
 skills/
 ├── first-principles-dialogue/
-├── situated-decision/
-└── work-alignment-advisor/
+├── situational-analysis/
+├── strategic-analysis/
+└── communication-advisor/
 ```
 
 ## Validation

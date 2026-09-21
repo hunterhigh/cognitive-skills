@@ -1,4 +1,4 @@
 interface:
-  display_name: "First Principles Dialogue"
-  short_description: "Decompose claims, goals, funnels, resources, and metrics."
-  default_prompt: "Use $first-principles-dialogue to examine this business or philosophical claim from first principles."
+  display_name: "第一性原理"
+  short_description: "提取原子事实与数理关系，组合并检验复杂命题"
+  default_prompt: "请用 $first-principles-dialogue 从这些材料中提取原子事实和关系，再构造并检验复杂命题。"

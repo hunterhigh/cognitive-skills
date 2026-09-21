@@ -1,0 +1,4 @@
+interface:
+  display_name: "战略分析"
+  short_description: "分析系统反馈、互动与演化，帮助用户形成并保持更有利的位置"
+  default_prompt: "请使用 $strategic-analysis 分析当前局势怎样变化，并找出能够改善我所处位置与后续选择的策略。"
